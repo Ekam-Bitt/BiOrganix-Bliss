@@ -25,7 +25,7 @@ export default function Header() {
         <div>
           <img
             src="https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg"
-            alt="realtor-logo"
+            alt="BiOrganix-Bliss"
             className="h-5 cursor-pointer"
             onClick={() => navigate("/")}
           />
@@ -42,16 +42,7 @@ export default function Header() {
             >
               Home
             </li>
-            <li
-              className={`py-3 cursor-pointer text-sm font-semibold ${
-                PathMatchRoute("/Offers")
-                  ? "text-black border-b-red-600"
-                  : "text-gray-500 border-b-transparent"
-              }`}
-              onClick={() => navigate("/Offers")}
-            >
-              Offers
-            </li>
+            
             <li
               className={`py-3 cursor-pointer text-sm font-semibold ${
                 PathMatchRoute("/Sign-In") || PathMatchRoute("/Profile")

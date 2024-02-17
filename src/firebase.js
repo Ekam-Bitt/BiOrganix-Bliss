@@ -6,12 +6,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCVl8YUWjsXisKfHVSYreiAsNFTl2gfe6Q",
-  authDomain: "realtor-clone-ekam.firebaseapp.com",
-  projectId: "realtor-clone-ekam",
-  storageBucket: "realtor-clone-ekam.appspot.com",
-  messagingSenderId: "463746875722",
-  appId: "1:463746875722:web:3ab36a212d91d857f401b3",
+  apiKey: "AIzaSyAZQugR0GAV0GvthNUj74UDPT5HxLVjZwo",
+  authDomain: "biorganix-bliss.firebaseapp.com",
+  projectId: "biorganix-bliss",
+  storageBucket: "biorganix-bliss.appspot.com",
+  messagingSenderId: "172480245238",
+  appId: "1:172480245238:web:7adf3b6cb102c6c8de2bd7",
+  measurementId: "G-PRMWXSBVLJ",
 };
 
 // Initialize Firebase
