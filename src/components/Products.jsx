@@ -36,14 +36,14 @@ const ServicesSection = () => {
     {
       image: product1,
       description: "Tooth Brush 1",
-      price: 10,
+      price: 149,
       ratings: 4.6,
       purchaseLink: `https://buy.stripe.com/test_14k6qw1bS3E75A4dQQ`,
     },
     {
       image: product2,
       description: "Tooth Brush 2",
-      price: 15,
+      price: 149,
       ratings: 4.9,
       purchaseLink: `https://buy.stripe.com/test_bIY16ccUA6Qj0fK001`,
     },
@@ -51,7 +51,7 @@ const ServicesSection = () => {
       image:
         "https://img.freepik.com/free-photo/natural-products-green-background_23-2149413924.jpg?w=740&t=st=1708127555~exp=1708128155~hmac=5d9d03408947141b7df7f4e7b679d47dececce532d73b42001d7b7bade43ee77",
       description: "Tooth Brush 3",
-      price: 25,
+      price: 199,
       ratings: 3.4,
       purchaseLink: `https://buy.stripe.com/test_fZe0282fW1vZe6AcMO`,
     },
@@ -59,7 +59,7 @@ const ServicesSection = () => {
       image:
         "https://img.freepik.com/free-photo/assortment-with-toothbrush-container_23-2148743101.jpg?w=740&t=st=1708127850~exp=1708128450~hmac=94ff1f5180ded1615ffcc5cfb60114aacff6493396441dca22e8d556ad393972",
       description: "Tooth Brush 4",
-      price: 17,
+      price: 199,
       ratings: 4.5,
       purchaseLink: `https://buy.stripe.com/test_14k6qw1bS3E75A4dQQ`,
     },
@@ -67,7 +67,7 @@ const ServicesSection = () => {
       image:
         "https://img.freepik.com/free-photo/toothbrush-with-sugar-cubes-blue-background-flat-lay_169016-37031.jpg?w=1060&t=st=1708127523~exp=1708128123~hmac=1312e8854c6ded0ecc23c079eb3ba369569b5bf78621d7c9f03c8d63ad45b4a1",
       description: "Tooth Brush 5",
-      price: 12,
+      price: 199,
       ratings: 2.7,
       purchaseLink: `https://buy.stripe.com/test_bIY16ccUA6Qj0fK001`,
     },
