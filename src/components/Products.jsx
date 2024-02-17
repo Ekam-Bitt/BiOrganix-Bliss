@@ -77,7 +77,7 @@ const ServicesSection = () => {
       description: "Tooth Brush 6",
       price: `XX`,
       ratings: `X`,
-      purchaseLink: `https://buy.stripe.com/test_fZe0282fW1vZe6AcMO`,
+      purchaseLink: `https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500`,
     },
   ];
 
