@@ -38,14 +38,14 @@ const ServicesSection = () => {
       description: "Tooth Brush 1",
       price: 149,
       ratings: 4.6,
-      purchaseLink: `https://buy.stripe.com/test_14k6qw1bS3E75A4dQQ`,
+      purchaseLink: `https://buy.stripe.com/test_8wMaGMbQweiL5A4bIL`,
     },
     {
       image: product2,
       description: "Tooth Brush 2",
       price: 149,
       ratings: 4.9,
-      purchaseLink: `https://buy.stripe.com/test_bIY16ccUA6Qj0fK001`,
+      purchaseLink: `https://buy.stripe.com/test_8wMaGMbQweiL5A4bIL`,
     },
     {
       image:
@@ -53,7 +53,7 @@ const ServicesSection = () => {
       description: "Tooth Brush 3",
       price: 199,
       ratings: 3.4,
-      purchaseLink: `https://buy.stripe.com/test_fZe0282fW1vZe6AcMO`,
+      purchaseLink: `https://buy.stripe.com/test_4gw6qwg6M5MfbYs9AE`,
     },
     {
       image:
@@ -61,7 +61,7 @@ const ServicesSection = () => {
       description: "Tooth Brush 4",
       price: 199,
       ratings: 4.5,
-      purchaseLink: `https://buy.stripe.com/test_14k6qw1bS3E75A4dQQ`,
+      purchaseLink: `https://buy.stripe.com/test_4gw6qwg6M5MfbYs9AE`,
     },
     {
       image:
@@ -69,7 +69,7 @@ const ServicesSection = () => {
       description: "Tooth Brush 5",
       price: 199,
       ratings: 2.7,
-      purchaseLink: `https://buy.stripe.com/test_bIY16ccUA6Qj0fK001`,
+      purchaseLink: `https://buy.stripe.com/test_4gw6qwg6M5MfbYs9AE`,
     },
     {
       image:
