@@ -1,5 +1,8 @@
 import { useState } from "react";
 import ReactSimplyCarousel from "react-simply-carousel";
+import image1 from "../assets/unnamed-3.jpg";
+import image2 from "../assets/unnamed-4.jpg";
+import image3 from "../assets/Bio.jpeg";
 
 function Carousel() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
@@ -24,25 +27,16 @@ function Carousel() {
         speed={400}
         easing="linear"
       >
-        {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
-        <div style={{ width: w, height: 600, background: "#ff80ed" }}>
-          slide 0
-        </div>
-        <div style={{ width: w, height: 600, background: "#065535" }}>
-          slide 1
+        <div style={{ width: w, height: 600, background: "#000000" }}>
+          <img src={image1} alt="Slide 1" className="w-full h-full" />
         </div>
         <div style={{ width: w, height: 600, background: "#000000" }}>
-          slide 2
+          <img src={image2} alt="Slide 2" className="w-full h-full" />
         </div>
-        <div style={{ width: w, height: 600, background: "#133337" }}>
-          slide 3
+        <div style={{ width: w, height: 600, background: "#000000" }}>
+          <img src={image3} alt="Slide 3" className="w-full h-full" />
         </div>
-        <div style={{ width: w, height: 600, background: "#ffc0cb" }}>
-          slide 4
-        </div>
-        <div style={{ width: w, height: 600, background: "#ffffff" }}>
-          slide 5
-        </div>
+        {/* <img src={image1} alt="Product" className="w-screen" /> */}
       </ReactSimplyCarousel>
     </div>
   );

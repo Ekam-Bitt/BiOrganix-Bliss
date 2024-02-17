@@ -1,6 +1,7 @@
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import logo from "../assets/Bio.jpeg";
 
 export default function Header() {
   const location = useLocation();
@@ -24,9 +25,9 @@ export default function Header() {
       <header className=" flex justify-between items-center px-3 max-w-6xl mx-auto">
         <div>
           <img
-            src="https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg"
+            src={logo}
             alt="BiOrganix-Bliss"
-            className="h-5 cursor-pointer"
+            className="cursor-pointer h-16"
             onClick={() => navigate("/")}
           />
         </div>
@@ -42,7 +43,7 @@ export default function Header() {
             >
               Home
             </li>
-            
+
             <li
               className={`py-3 cursor-pointer text-sm font-semibold ${
                 PathMatchRoute("/Sign-In") || PathMatchRoute("/Profile")
